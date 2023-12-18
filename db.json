@@ -1,9 +1,74 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "ads": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1626072557464-90403d788e8d?q=80&w=3526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "price": 20000,
+      "city": "Porto",
+      "description": "A reliable family car with low mileage.",
+      "location": {
+        "latitude": 41.1579,
+        "longitude": -8.6291
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?q=80&w=4983&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2018,
+      "price": 35000,
+      "city": "Lisbon",
+      "description": "A classic American muscle car in excellent condition.",
+      "location": {
+        "latitude": 38.7223,
+        "longitude": -9.1393
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1570303278489-041bd897a873?q=80&w=3784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2019,
+      "price": 18000,
+      "city": "Braga",
+      "description": "Efficient and reliable, perfect for city driving.",
+      "location": {
+        "latitude": 41.5454,
+        "longitude": -8.4265
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1523983388277-336a66bf9bcd?q=80&w=5070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "brand": "BMW",
+      "model": "3 Series",
+      "year": 2021,
+      "price": 45000,
+      "city": "Coimbra",
+      "description": "Luxurious and sporty with advanced features.",
+      "location": {
+        "latitude": 40.2033,
+        "longitude": -8.4103
+      }
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?q=80&w=5071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2022,
+      "price": 50000,
+      "city": "Faro",
+      "description": "Modern electric vehicle with high-tech amenities.",
+      "location": {
+        "latitude": 37.0194,
+        "longitude": -7.9304
+      }
+    }
+  ]
 }
